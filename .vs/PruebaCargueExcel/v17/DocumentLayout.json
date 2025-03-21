@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|c:\\cursos\\entity_framework\\pruebacargueexcel\\pruebacargueexcel\\services\\tmpcargueexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|solutionrelative:pruebacargueexcel\\services\\tmpcargueexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|c:\\cursos\\entity_framework\\pruebacargueexcel\\pruebacargueexcel\\controllers\\cargueexcelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|solutionrelative:pruebacargueexcel\\controllers\\cargueexcelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|c:\\cursos\\entity_framework\\pruebacargueexcel\\pruebacargueexcel\\pruebacargueexcelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|solutionrelative:pruebacargueexcel\\pruebacargueexcelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|c:\\cursos\\entity_framework\\pruebacargueexcel\\pruebacargueexcel\\models\\tmpcargueexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|solutionrelative:pruebacargueexcel\\models\\tmpcargueexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|c:\\cursos\\entity_framework\\pruebacargueexcel\\pruebacargueexcel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A43365-8E57-4B61-B317-8437786A259B}|PruebaCargueExcel\\PruebaCargueExcel.csproj|solutionrelative:pruebacargueexcel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PruebaCargueExcelContext.cs",
+              "DocumentMoniker": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\PruebaCargueExcelContext.cs",
+              "RelativeDocumentMoniker": "PruebaCargueExcel\\PruebaCargueExcelContext.cs",
+              "ToolTip": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\PruebaCargueExcelContext.cs",
+              "RelativeToolTip": "PruebaCargueExcel\\PruebaCargueExcelContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T22:45:58.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Program.cs",
+              "RelativeDocumentMoniker": "PruebaCargueExcel\\Program.cs",
+              "ToolTip": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Program.cs",
+              "RelativeToolTip": "PruebaCargueExcel\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T22:34:38.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TmpCargueExcelService.cs",
+              "DocumentMoniker": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Services\\TmpCargueExcelService.cs",
+              "RelativeDocumentMoniker": "PruebaCargueExcel\\Services\\TmpCargueExcelService.cs",
+              "ToolTip": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Services\\TmpCargueExcelService.cs",
+              "RelativeToolTip": "PruebaCargueExcel\\Services\\TmpCargueExcelService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:58:39.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CargueExcelController.cs",
+              "DocumentMoniker": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Controllers\\CargueExcelController.cs",
+              "RelativeDocumentMoniker": "PruebaCargueExcel\\Controllers\\CargueExcelController.cs",
+              "ToolTip": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Controllers\\CargueExcelController.cs",
+              "RelativeToolTip": "PruebaCargueExcel\\Controllers\\CargueExcelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:52:17.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TmpCargueExcel.cs",
+              "DocumentMoniker": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Models\\TmpCargueExcel.cs",
+              "RelativeDocumentMoniker": "PruebaCargueExcel\\Models\\TmpCargueExcel.cs",
+              "ToolTip": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\Models\\TmpCargueExcel.cs",
+              "RelativeToolTip": "PruebaCargueExcel\\Models\\TmpCargueExcel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:43:46.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

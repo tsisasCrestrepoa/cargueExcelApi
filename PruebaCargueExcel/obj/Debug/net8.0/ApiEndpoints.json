@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "PruebaCargueExcel.Controllers.CargueExcelController",
+    "Method": "get",
+    "RelativePath": "api/CargueExcel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PruebaCargueExcel.Models.TmpCargueExcel, PruebaCargueExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PruebaCargueExcel.Controllers.CargueExcelController",
+    "Method": "LoadFile",
+    "RelativePath": "api/CargueExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "archivoExcel",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

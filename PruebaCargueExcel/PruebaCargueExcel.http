@@ -1,0 +1,6 @@
+@PruebaCargueExcel_HostAddress = http://localhost:5039
+
+GET {{PruebaCargueExcel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
