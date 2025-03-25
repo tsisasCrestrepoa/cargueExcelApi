@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\PruebaCargueExcel.csproj": {}
+    "C:\\Cursos\\entity_framework\\cargueExcelApi\\PruebaCargueExcel\\PruebaCargueExcel.csproj": {}
   },
   "projects": {
-    "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\PruebaCargueExcel.csproj": {
+    "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\PruebaCargueExcel.csproj",
-        "projectName": "PruebaCargueExcel",
-        "projectPath": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\PruebaCargueExcel.csproj",
-        "packagesPath": "C:\\Users\\CRESTREPO\\.nuget\\packages\\",
-        "outputPath": "C:\\cursos\\entity_framework\\PruebaCargueExcel\\PruebaCargueExcel\\obj\\",
+        "projectUniqueName": "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CRESTREPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,6 +32,104 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Cursos\\entity_framework\\cargueExcelApi\\PruebaCargueExcel\\PruebaCargueExcel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Cursos\\entity_framework\\cargueExcelApi\\PruebaCargueExcel\\PruebaCargueExcel.csproj",
+        "projectName": "PruebaCargueExcel",
+        "projectPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\PruebaCargueExcel\\PruebaCargueExcel.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\PruebaCargueExcel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Cursos\\entity_framework\\cargueExcelApi\\Services\\Services.csproj": {
+                "projectPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\Services\\Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -70,6 +168,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -90,6 +192,81 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Cursos\\entity_framework\\cargueExcelApi\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Cursos\\entity_framework\\cargueExcelApi\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Cursos\\entity_framework\\cargueExcelApi\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -12,39 +12,25 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TmpCargueExcel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TmpCargueExcel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TmpCargueExcel"
-                  }
-                }
-              }
-            }
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TipoIdentificacion": {
+      "get": {
+        "tags": [
+          "TipoIdentificacion"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       },
       "post": {
         "tags": [
-          "CargueExcel"
+          "TipoIdentificacion"
         ],
         "requestBody": {
           "content": {
@@ -52,14 +38,131 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "archivoExcel": {
+                  "Archivo": {
                     "type": "string",
                     "format": "binary"
                   }
                 }
               },
               "encoding": {
-                "archivoExcel": {
+                "Archivo": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TipoIdentificacion"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TipoIdentificacion"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TipoIdentificacion"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TipoIdentificacion/{id}": {
+      "get": {
+        "tags": [
+          "TipoIdentificacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TipoIdentificacion"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TipoIdentificacion"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TipoIdentificacion"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "TipoIdentificacion"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Str_codigo",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Str_descripcion",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Archivo"
+                ],
+                "type": "object",
+                "properties": {
+                  "Archivo": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Archivo": {
                   "style": "form"
                 }
               }
@@ -71,14 +174,36 @@
             "description": "OK"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "TipoIdentificacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     }
   },
   "components": {
     "schemas": {
-      "TmpCargueExcel": {
+      "TipoIdentificacion": {
         "required": [
-          "dtm_fecha_cargue",
+          "archivo",
+          "id",
           "str_codigo",
           "str_descripcion"
         ],
@@ -87,10 +212,6 @@
           "id": {
             "type": "integer",
             "format": "int32"
-          },
-          "dtm_fecha_cargue": {
-            "type": "string",
-            "format": "date-time"
           },
           "str_codigo": {
             "type": "string",

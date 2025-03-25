@@ -1,4 +1,6 @@
-﻿namespace PruebaCargueExcel.Models
+﻿using Microsoft.AspNetCore.Http;
+
+namespace PruebaCargueExcel.Models
 {
     public class TmpCargueExcel
     {

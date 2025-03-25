@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaCargueExcel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5d4d5622e015f4b76819d101f6c433757a75703")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaCargueExcel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaCargueExcel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

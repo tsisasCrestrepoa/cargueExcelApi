@@ -1,0 +1,17 @@
+## Ignorar archivos generados por el usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignorar archivos de compilación
+bin/
+obj/
+
+## Ignorar archivos de Visual Studio
+.vs/
+*/**/launchSettings.json
+
+## Ignorar paquetes NuGet
+*.nupkg
+packages/
